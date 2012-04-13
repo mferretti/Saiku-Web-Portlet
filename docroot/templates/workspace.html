@@ -1,0 +1,30 @@
+        <script type="text/x-jquery-tmpl" id="template-workspace">
+        <div class="workspace">
+            <div class="workspace_inner">
+                <div class="workspace_toolbar"></div>
+                <div class="workspace_results">
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div>
+                <h3 class="top i18n">Cubes</h3>
+                <div class="refresh_cubes_nav">
+                    <a href="#refresh_cubes" 
+                        class="i18n button refresh_cubes"  
+                        title="Refresh Cubes (Clear Cache)"></a>
+                </div>
+            </div>
+            <div class="sidebar_inner">
+                <%= cube_navigation %>
+            </div>
+            <h3 class="i18n">Dimensions</h3>
+            <div class="sidebar_inner dimension_tree"></div>
+            <h3 class="i18n">Measures</h3>
+            <div class="sidebar_inner measure_tree"></div>
+        </div>
+        
+        <div class="sidebar_separator"></div>
+        <div class="clear"></div>
+        </script>

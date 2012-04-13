@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.0.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_0_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>saiku-web</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>true</instanceable>
+		<header-portlet-javascript>/js/main.js</header-portlet-javascript>
+<!-- 
+		<header-portlet-javascript>/js/jquery/jquery.min.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/jquery/jquery-mobile-touch.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/backbone/underscore.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/backbone/json2.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/backbone/backbone.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/logger/janky.post.min.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/Settings.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/Dimension.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/DimensionList.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/Toolbar.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/Modal.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/MDXModal.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/SelectionsModal.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/DrillthroughModal.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/DrillthroughViewModal.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/LoginForm.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/AboutModal.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/WorkspaceToolbar.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/WorkspaceDropZone.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/Table.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/Workspace.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/DeleteQuery.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/OpenQuery.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/SaveQuery.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/views/Tab.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/Repository.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/Properties.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/Result.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/QueryAction.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/QueryScenario.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/Query.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/Session.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/SessionWorkspace.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/models/Member.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/Saiku.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/adapters/SaikuServer.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/routers/QueryRouter.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/plugins/Chart/plugin.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/plugins/Statistics/plugin.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/plugins/I18n/plugin.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/saiku/plugins/BIServer/plugin.js</header-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery/jquery-ui.min.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/ga.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/logger/Logger.js</footer-portlet-javascript>
+ -->		
+		<css-class-wrapper>saiku-web-portlet</css-class-wrapper>
+	</portlet>
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app>

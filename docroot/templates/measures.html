@@ -1,0 +1,17 @@
+        <script type="text/x-jquery-tmpl" id="template-measures">
+        <ul>
+            <li>
+                <span class="root expand sprite"></span>
+                   <a href="#" title="Measures" class="folder_expand sprite">Measures</a>
+                
+                <ul>
+                <% _.each(measures, function(measure) { %>
+                    <li><a title="<%= measure.description ? measure.description : measure.uniqueName %>"
+                            rel="<%= measure.uniqueName %>"
+                        class="measure" href="#Measures/member/<%= measure.uniqueName %>"><%= measure.caption %></a>
+                    </li>
+                <% }); %>
+                </ul>
+            </li>
+        </ul>
+        </script>
