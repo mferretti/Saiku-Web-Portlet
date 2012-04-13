@@ -50,4 +50,9 @@ loadPlugins('<%=request.getContextPath() %>');
 <jsp:include page="templates/selections.html" />
 <jsp:include page="templates/drillthrough.html" />
 <jsp:include page="templates/drillthrough-view.html" />
+
+
+<!-- load the ga script  -->
+
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/ga.js"></script>        
         
