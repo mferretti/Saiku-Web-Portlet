@@ -4,5 +4,10 @@ You should at least have apache-ant, liferay 6.0.6 plugins and an instance of li
 Make sure you checkout this git into <liferay-plugins>/portlets.
 If you have all the above, creating and deploying the application is a matter of issuing the commad "ant" .
 
-An eclipse project is also ready : you just need to import it using the "Import existing project" in eclipse.  
+An eclipse project is also ready : you just need to import it using the "Import existing project" in eclipse. 
+
+
+Saiku is an open source analysis suite and can be found at http://analytical-labs.com/
+Liferay is an open source portal and can be found at http://www.liferay.com/
+
 
